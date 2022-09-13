@@ -8,8 +8,4 @@
 [build]
   base = "./"
   command = "npm run build"
-<<<<<<< HEAD
   publish = "dist"
-=======
-  publish = "dist"
->>>>>>> b1ad0075dd06af69ff3384eb39f2c79f98005338
