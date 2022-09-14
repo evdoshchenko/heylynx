@@ -49,13 +49,13 @@
   box-sizing: border-box;
   height: 44px;
   border-radius: 22px;
-  background-color: #2A9273;
+  background-color: var(--green-light);
   color: var(--light);
   border: none;
 }
 
 .error__button:focus {
-  border-color: #D3950E;
+  border-color: var(--accent);
   background-color: var(--light);
-  color: #D3950E;
+  color: var(--accent);
 }

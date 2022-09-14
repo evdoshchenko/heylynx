@@ -1,7 +1,7 @@
 header {
   display: flex;
   height: 30px;
-  background-color:#2A9273;
+  background-color:var(--green-light);
   color:var(--light);
 }
 

@@ -11,17 +11,17 @@
 }
 
 .modal__buttons{
-  background-color: #fefefe;
+  background-color: var(--light);
   margin: auto;
   padding: 18px 20px;
-  border: 1px solid #888;
+  border: 1px solid var(--green-light);
   width: 200px;
   border-radius: 22px;
 }
 
 .modal__button {
   width: 100%;
-  border: 0px solid #2A9273;
+  border: 0px solid var(--green-light);
   color: var(--black);
   text-align: center;
   display: flex;
@@ -40,13 +40,13 @@
 }
 
 .modal__button:focus {
-  border-color: #D3950E;
+  border-color: var(--accent);
   background-color: var(--light);
-  color: #D3950E;
+  color: var(--accent);
 }
 
 .modal__button_active {
-  background-color: #2A9273;
+  background-color: var(--green-light);
   color: var(--light);
   border: none;
 }
